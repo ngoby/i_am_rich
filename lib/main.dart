@@ -11,8 +11,7 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.wanderingowl.com/wp-content/uploads/2020/09/blog_images_aurora_sunset_love.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
